@@ -13,9 +13,9 @@ import org.springframework.context.annotation.PropertySources;
         }
 )
 @EnableEurekaClient
-//@PropertySources({
-//        @PropertySource("classpath:clients-${spring.profiles.active}.properties")
-//})
+@PropertySources({
+        @PropertySource("classpath:clients-${spring.profiles.active}.properties")
+})
 public class NotificationApp {
     public static void main(String[] args) {
         SpringApplication.run(NotificationApp.class, args);

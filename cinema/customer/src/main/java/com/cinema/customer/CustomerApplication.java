@@ -17,9 +17,9 @@ import org.springframework.context.annotation.PropertySources;
 @EnableFeignClients(
         basePackages = "com.cinema.clients"
 )
-//@PropertySources({
-//        @PropertySource(value = "classpath:clients-${spring.profiles.active}.properties")
-//})
+@PropertySources({
+        @PropertySource(value = "classpath:clients-${spring.profiles.active}.properties")
+})
 public class CustomerApplication {
     public static void main(String[] args) {
         SpringApplication.run(CustomerApplication.class, args);

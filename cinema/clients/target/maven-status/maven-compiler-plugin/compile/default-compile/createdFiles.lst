@@ -1,5 +1,5 @@
+com\cinema\clients\notification\models\NotificationDto$NotificationDtoBuilder.class
+com\cinema\clients\fraud\FraudClient.class
 com\cinema\clients\notification\models\BaseItem.class
 com\cinema\clients\notification\notification\NotificationClient.class
-com\cinema\clients\notification\models\NotificationDto$NotificationDtoBuilder.class
 com\cinema\clients\notification\models\NotificationDto.class
-com\cinema\clients\fraud\FraudClient.class
