@@ -5,44 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e7df05e-0ec2-4828-bcb6-d6de4f6a65fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fraud/src/main/resources/application-docker.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification/src/main/resources/application-docker.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/configmap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/statefulset.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/postgres/volume.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/configmap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/rbac.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/rabbitmq/statefulset.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/zipkin/service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/minikube/bootstrap/zipkin/statefulset.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amqp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/amqp/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/target/apigw-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/target/apigw-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/customer-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/CinemaHallMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/CinemaHallMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/CinemaHallMapperImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/CinemaHallMapperImpl_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/FilmMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/FilmMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/FilmMapperImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/FilmMapperImpl_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/LayoutCapacityMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/LayoutCapacityMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/LayoutCapacityMapperImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/LayoutCapacityMapperImpl_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/UserMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/UserMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/UserMapperImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/generated-sources/annotations/com/cinema/customer/web/mappers/UserMapperImpl_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/fraud-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/generated-sources/annotations/com/cinema/fraud/web/mappers/FraudMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/generated-sources/annotations/com/cinema/fraud/web/mappers/FraudMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/generated-sources/annotations/com/cinema/fraud/web/mappers/FraudMapperImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/generated-sources/annotations/com/cinema/fraud/web/mappers/FraudMapperImpl_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fraud/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fraud/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/generated-sources/annotations/com/cinema/notification/web/mappers/NotificationMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/generated-sources/annotations/com/cinema/notification/web/mappers/NotificationMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/generated-sources/annotations/com/cinema/notification/web/mappers/NotificationMapperImpl_.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/generated-sources/annotations/com/cinema/notification/web/mappers/NotificationMapperImpl_.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/target/notification-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/notification/target/notification-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Brux/IdeaProjects/cinema/cinema/notification/src/main/resources",
+    "last_opened_file_path": "C:/Users/Brux/IdeaProjects/cinema/cinema/k8s/minikube/bootstrap/zipkin",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -90,11 +64,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\k8s\minikube\bootstrap\zipkin" />
+      <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\k8s\minikube\bootstrap\rabbitmq" />
       <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\notification\src\main\resources" />
       <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\fraud\src\main\resources" />
       <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\customer\src\main\resources" />
-      <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\eureka-server\src\main\resources" />
-      <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\apigw\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Brux\IdeaProjects\cinema\cinema\clients\src\main\java" />
