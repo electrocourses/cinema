@@ -5,4 +5,4 @@ metadata:
 data:
   POSTGRES_DB: amigoscode
   POSTGRES_USER: amigoscode
-  POSTGRES_PASSWORD: PASSWORD
+  POSTGRES_PASSWORD: password
